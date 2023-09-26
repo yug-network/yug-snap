@@ -1,7 +1,7 @@
 {
   "name": "yug-snap",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "description": "YUG is an on-chain decentralized compliance protocol with a built-in world's first KYC, AML, age verified wallet. We help users to ensure that they don’t transact with any sanctioned individual thereby curbing illicit financing and money laundering.",
   "repository": {
     "type": "git",
