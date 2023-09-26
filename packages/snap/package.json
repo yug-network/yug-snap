@@ -1,11 +1,11 @@
 {
-  "name": "snap",
+  "name": "yug-snap",
   "version": "0.1.0",
   "private": true,
-  "description": "The 'Hello, world!' of MetaMask Snaps, now written in TypeScript.",
+  "description": "YUG is an on-chain decentralized compliance protocol with a built-in world's first KYC, AML, age verified wallet. We help users to ensure that they don’t transact with any sanctioned individual thereby curbing illicit financing and money laundering.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/yug-network/yug-snap.git"
   },
   "license": "(MIT-0 OR Apache-2.0)",
   "main": "src/index.ts",

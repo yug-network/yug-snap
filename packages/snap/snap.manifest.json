@@ -1,18 +1,18 @@
 {
   "version": "0.1.0",
-  "description": "Yug Snap.",
+  "description": "YUG is an on-chain decentralized compliance protocol with a built-in world's first KYC, AML, age verified wallet. We help users to ensure that they don’t transact with any sanctioned individual thereby curbing illicit financing and money laundering.",
   "proposedName": "Yug Snap",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/template-snap-monorepo.git"
+    "url": "https://github.com/yug-network/yug-snap.git"
   },
   "source": {
-    "shasum": "UgUbVM5l1wielTTbWYDzvizLe8LgV16H0qUs/vGwPmY=",
+    "shasum": "GESwvaA/7sx/9OpzylonyMM+EUQ0V/ZmPvA5aMNe9pg=",
     "location": {
       "npm": {
         "filePath": "dist/bundle.js",
         "iconPath": "images/icon.svg",
-        "packageName": "snap",
+        "packageName": "yug-snap",
         "registry": "https://registry.npmjs.org/"
       }
     }
