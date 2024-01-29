@@ -45,12 +45,12 @@ export const onTransaction: OnTransactionHandler = async ({ transaction }) => {
   let responseContent: any = [];
   if (isSenderVerified && verified) {
     responseContent = [
-      heading('Recipient is Verified'),
+      heading('✅ Recipient is Verified'),
       text('The address is verified by Yug and is safe to transfer.'),
     ];
   } else if (!isSenderVerified && verified) {
     responseContent = [
-      heading('Recipient is Verified'),
+      heading('✅ Recipient is Verified'),
       text(
         'The Recipient is verified by Yug and is safe to transfer but your Account is not compliant.',
       ),
@@ -59,7 +59,7 @@ export const onTransaction: OnTransactionHandler = async ({ transaction }) => {
     ];
   } else if (isSenderVerified && !verified) {
     responseContent = [
-      heading('Recipient is not Verified'),
+      heading('❌ Recipient is not Verified'),
       text(
         'The address is not verified and is not safe to transfer. You could be prosecuted in future if recipient address is involved in illegal activity.',
       ),
